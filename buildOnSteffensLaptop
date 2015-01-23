@@ -1,0 +1,2 @@
+#!/bin/bash
+g++ httphandler.cpp strutil.cpp api.cpp executor.cpp -I /usr/lib/x86_64-linux-gnu/ -lmicrohttpd -pthread /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.55.0>libboost_regex.a
